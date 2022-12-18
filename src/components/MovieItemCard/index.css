@@ -1,0 +1,230 @@
+@media (min-width: 768px) {
+  .movie-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    color: #ffffff;
+    padding-left: 169px;
+    padding-top: 80px;
+  }
+  .movie-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 165px;
+    color: #ffffff;
+    width: 800px;
+  }
+  .movie-details {
+    margin-left: 130px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .duration {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #ffffff;
+    padding-right: 20px;
+  }
+  .play-btn {
+    padding: 8px 24px;
+    gap: 8px;
+    margin-left: 170px;
+    width: 74px;
+    height: 40px;
+    border-style: none;
+    background: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  .movie-details-section {
+    margin-left: 165px;
+  }
+  .details-background {
+    margin-left: 165px;
+    margin-top: 58px;
+  }
+  .genre-list {
+    margin-left: 110px;
+  }
+  .rating-container {
+    margin-left: 160px;
+  }
+  .languages-list {
+    margin-left: 227px;
+  }
+  .genres-details {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #94a3b8;
+  }
+  .list-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .details-container {
+    margin-left: 165px;
+  }
+  .details-background {
+    margin-left: 165px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.list-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #131313;
+  background-size: cover;
+}
+
+.details-container {
+  margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 500px;
+  flex-wrap: wrap;
+}
+.movie-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+
+  padding-top: 84px;
+}
+.movie-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #ffffff;
+  width: 600px;
+}
+.movie-details {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 9px;
+}
+.duration {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 47px;
+  color: #ffffff;
+  padding-right: 28px;
+}
+.play-btn {
+  padding: 8px 24px;
+  gap: 8px;
+  width: 74px;
+  height: 40px;
+  border-style: none;
+  background: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 42px;
+}
+.certificate {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 28px;
+  border: 1px solid #ffffff;
+  height: 23px;
+  width: 32px;
+  text-align: center;
+  align-self: center;
+}
+
+.details-background {
+  display: flex;
+  flex-direction: column;
+  margin-left: -10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: -5px;
+  margin-top: 0px;
+  min-width: 655px;
+}
+.movie-details-section {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  margin-left: 32px;
+  align-items: center;
+  justify-content: center;
+}
+.genre-list {
+  list-style-type: none;
+  margin-right: 40px;
+}
+.languages-list {
+  list-style-type: none;
+  margin-right: 32px;
+}
+.rating-list {
+  list-style-type: none;
+}
+.rating-container {
+  display: flex;
+  flex-direction: column;
+}
+.genres-details {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #64748b;
+}
+.release-list {
+  list-style-type: none;
+}
+.budget-list {
+  list-style-type: none;
+}

@@ -1,0 +1,139 @@
+.login-bg-container {
+  min-height: 100vh;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #131313;
+}
+.logo-image {
+  width: 100px;
+  height: 27px;
+  align-self: flex-start;
+}
+.login-form-container {
+  margin: auto;
+  width: 100%;
+}
+
+.login-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-bottom: 8px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-bar {
+  height: 40px;
+  margin-bottom: 40px;
+  background: #333333;
+  border-radius: 2px;
+}
+.login-btn {
+  padding: 8px 20px;
+  background: #e50914;
+  border-radius: 4px;
+  border: none;
+  height: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 8px 20px 8px 20px;
+  margin-top: 20px;
+}
+.error-msg {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 5px;
+  color: #dc2626;
+  margin-bottom: 6px;
+  line-height: 18px;
+}
+
+@media (min-width: 768px) {
+  .login-bg-container {
+    background-image: url('https://res.cloudinary.com/dkbxi5qts/image/upload/v1660153719/movies%20prime%20app/login_backdrop_mwiy7z.svg');
+    background-size: cover;
+    padding: 48px 165px 48px 165px;
+  }
+  .logo-image {
+    align-self: flex-start;
+    height: 52px;
+    width: 180px;
+  }
+  .login-form-container {
+    justify-content: flex-start;
+    background-color: #0c0b1099;
+    box-shadow: 0px 4px 16px 0px #333333;
+    border-radius: 8px;
+    width: 456px;
+    height: 440px;
+    padding: 64px 48px 64px 48px;
+    margin: auto;
+  }
+  .login-heading {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+
+  .label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 8px;
+    line-height: 16px;
+  }
+  .input-bar {
+    height: 40px;
+    top: 24px;
+    background: #333333;
+    border-radius: 2px;
+    margin-bottom: 24px;
+    outline: none;
+    border-style: none;
+  }
+  .login-btn {
+    height: 40px;
+    width: 360px;
+    background: #e50914;
+    border-radius: 8px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    color: #f8fafc;
+    margin-top: 14px;
+
+    position: absolute;
+  }
+  .error-msg {
+    line-height: 18px;
+  }
+}
